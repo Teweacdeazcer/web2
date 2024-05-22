@@ -5,12 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shadow</title>
     <style>
-        h1{
+        div{
+            width: 500px; 
+            height: 100px;
             text-shadow: 5px 5px 5px blueviolet;
+            border: 3px solid blue;
+            box-shadow: 10px 10px 10px navy;
+            text-align: center;
+        }
+        /* 그림자 중첩 */
+        .box{
+            text-shadow: 5px 5px 5px blueviolet, 10px 10px 10px orange;
+            border: 3px solid blue;
+            box-shadow: 20px 20px 20px red, 10px 10px 10px navy;
         }
     </style>
 </head>
 <body>
-    <h1>Artifical Intelligence Software</h1>
+    <div class="box">
+        <h1>Artifical Intelligence Software</h1>
+    </div>
 </body>
 </html>
