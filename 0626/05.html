@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>속성지정_attr(img)</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        // 메소드 chaining
+        $(document).ready(function(){
+            $("img").attr("alt","Jquery 속성 연습")
+                    .attr("src","imgs/img01.jpg")
+                    .attr("width","150");
+        });
+    </script>
+</head>
+<body>
+    <img>
+    <img>
+    <img>
+</body>
+</html>
